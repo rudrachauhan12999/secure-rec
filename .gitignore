@@ -1,0 +1,31 @@
+# --- Python / tooling -------------------------------------------------------
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.egg-info/
+
+# --- Secrets: never commit generated key material ---------------------------
+keys/*
+!keys/.gitkeep
+*.pem
+*.key
+*.p12
+*.pfx
+*.der
+*.srl
+
+# --- Generated evidence (reproducible by re-running the tasks) --------------
+outputs/*
+!outputs/.gitkeep
+benchmarks/data/
+wireshark/*.pcap
+wireshark/*.pcapng
+
+# --- OS ---------------------------------------------------------------------
+.DS_Store
+Thumbs.db

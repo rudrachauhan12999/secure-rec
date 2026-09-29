@@ -1,0 +1,3 @@
+# Store the Kaggle dataset byte-for-byte (CRLF, 68,776 bytes, SHA-256 8b1738c7...).
+# Without this, core.autocrlf would convert its line endings and change the data.
+data/student_records.txt -text

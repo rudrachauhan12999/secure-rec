@@ -1,0 +1,5 @@
+# Python 3.11+  (Tkinter ships with the standard python.org installer)
+pycryptodome>=3.20
+Pillow>=10.0
+matplotlib>=3.8
+pytest>=8.0
